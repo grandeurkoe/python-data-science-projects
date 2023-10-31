@@ -8,7 +8,7 @@ Each project has been built from scratch with minimal to no assistance.<br/>
 
 This project involves analyzing the post-university salaries of graduates by major. 
 
-**Learning Points & Summary**
+**Learning Points**
 
 - Use `.head()`, `.tail()`, `.shape` and `.columns` to explore your DataFrame and find out the number of rows and columns as well as the column names.
 - Look for NaN (not a number) values with `.findna()` and consider using `.dropna()` to clean up your DataFrame.
@@ -24,7 +24,7 @@ This project involves analyzing the post-university salaries of graduates by maj
 
 This project involves analyzing the popularity of different programming languages over time. Additionally, create beautiful charts using Matplotlib.
 
-**Learning Points & Summary**
+**Learning Points**
 
 - Use `.groupby()` to explore the number of posts and entries per programming language.
 - Convert strings to Datetime objects with `to_datetime()` for easier plotting.
@@ -41,7 +41,7 @@ This project involves analyzing the popularity of different programming language
 
 This project involves analyzing a dataset of LEGO Pieces.
 
-**Learning Points & Summary**
+**Learning Points**
 
 - Use HTML Markdown in Notebooks, such as section headings `#` and how to embed images with the `<img>` tag.
 - Combine the `groupby()` and `count()` functions to aggregate data.
@@ -57,3 +57,49 @@ This project involves analyzing a dataset of LEGO Pieces.
 
 ![LEGO Pieces](analyze-the-lego-dataset/lego-analysis.gif)
 
+### Day 075 - Google Trends
+
+This project involves analyzing and combining Google Trends with other Time Series data.
+
+**Learning Points**
+
+- Use `.describe()` to quickly see some descriptive statistics at a glance.
+- Use `.resample()` to make a time-series data comparable to another by changing the periodicity.
+- Work with `matplotlib.dates` Locators to better style a timeline (e.g., an axis on a chart).
+- Find the number of NaN values with `.isna().values.sum()`
+- Change the resolution of a chart using the figure's `dpi`
+- Create dashed `'--'` and dotted `'-.'` lines using `linestyles`
+- Use different kinds of markers (e.g., `'o'` or `'^'`) on charts.
+- Fine-tuning the styling of Matplotlib charts by using limits, labels, `linewidth` and colors (both in the form of named colors and HEX codes).
+- Use `.grid()` to help visually identify seasonality in a time series.
+
+![Google Trends](google-trends-data-analysis/google-trends-and-data-visualisation.gif)
+
+### Day 076 - Android App Store
+
+This project involves analyzing the Android App Store. Additionally, create beautiful charts using Plotly.
+
+**Learning Points**
+
+- Pull a random sample from a DataFrame using `.sample()`
+- Find duplicate entries with `.duplicated()` and `.drop_duplicates()`
+- Convert string and object data types into numbers with `.to_numeric()`
+- Use Plotly to generate beautiful pie, donut, and bar charts as well as box and scatter plots.
+
+![Android App Store](google-play-store-analysis/google-play-store-app-analytics.gif)
+
+### Day 077 - Computation with Numpy
+
+This project involves computing numerical data using the Numpy python library.
+
+**Learning Points**
+
+- Create arrays manually with `np.array()`
+- Generate arrays using  `.arange()`, `.random()`, and `.linspace()`
+- Analyse the shape and dimensions of a ndarray
+- Slice and subset a ndarray based on its indices
+- Do linear algebra like operations with scalars and matrix multiplication
+- Use NumPy’s broadcasting to make ndarray shapes compatible
+- Manipulate images in the form of ndarrays
+
+![Computation with Numpy](computation-with-numpy-and-n-dimensional-array/computation-with-numpy.gif)  
