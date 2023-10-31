@@ -141,3 +141,20 @@ This project involves analyzing the Nobel Prize data. Additionally, create beaut
 - See the distribution of our data and visualise descriptive statistics with the help of a histogram in Seaborn.
 
 ![Nobel Prize](nobel-prize-analysis/nobel-prize-analysis.gif)  
+
+### Day 080 - Dr. Semmelweis Handwashing
+
+This project involves analyzing the collected data on the number of births and maternal deaths at Vienna General Hospital throughtout the 1840s.
+
+**Learning Points**
+
+- Use histograms to visualise distributions
+- Superimpose histograms on top of each other even when the data series have different lengths
+- Use a to smooth out kinks in a histogram and visualise a distribution with a Kernel Density Estimate (KDE)
+- Improve a KDE by specifying boundaries on the estimates
+- Use `scipy` and test for statistical significance by looking at p-values.
+- Highlight different parts of a time series chart in Matplotlib.
+- Add and configure a Legend in Matplotlib.
+- Use NumPy's `.where()` function to process elements depending on a condition.
+
+![Dr. Semmelweis Handwashing](dr-semmesweis-handwashing-analysis/dr-semmelweis-handwashing-discovery.gif)  
