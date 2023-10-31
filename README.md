@@ -158,3 +158,50 @@ This project involves analyzing the collected data on the number of births and m
 - Use NumPy's `.where()` function to process elements depending on a condition.
 
 ![Dr. Semmelweis Handwashing](dr-semmesweis-handwashing-analysis/dr-semmelweis-handwashing-discovery.gif)  
+
+### Day 081 - Predict Boston House Prices
+
+This project involves analyzing the Boston house price data and building a model to estimate house prices using that data.
+
+**Learning Points**
+
+- Spot relationships in a dataset using Seaborn's `.pairplot()`.
+- Split the data into a training and testing dataset to better evaluate a model's performance.
+- Run a multivariable regression.
+- Evaluate that regression-based on the sign of its coefficients.
+- Analyze and look for patterns in a model's residuals.
+- Improve a regression model using (a log) data transformation.
+- Specify values for various features and use model to make a prediction.
+
+![Predict Boston House Prices](predict-boston-house-prices/multivariable-regression-and-valuation-model.gif)  
+
+## Getting Started
+
+### Set Up for Data Science
+
+<b>Download and add the Notebook to Google Drive</b>
+<br/> 
+
+Add the .ipynb file into your Google Drive and open it as a Google Colaboratory notebook.
+
+
+<b>Add the Data to the Notebook</b>
+<br/> 
+
+Add the .csv files to your Google Colaboratory notebook.
+
+## Built With
+<p>
+  <img alt="Python" src="https://img.shields.io/badge/-Python-ffde57?style=flat-square&logo=python&logoColor=#4584b6" />
+  <img alt="Pandas" src="https://img.shields.io/badge/-Pandas-4848b6?style=flat-square&logo=pandas&logoColor=white" />
+  <img alt="NumPy" src="https://img.shields.io/badge/-NumPy-7099f7?style=flat-square&logo=numpy&logoColor=4848b6" />
+  <img alt="Plotly" src="https://img.shields.io/badge/-Plotly-000000?style=flat-square&logo=plotly&logoColor=white" />
+  <img alt="sciket-learn" src="https://img.shields.io/badge/-scikit%20learn-EC471A?style=flat-square&logo=scikit-learn&logoColor=1E81FB" />
+  <img alt="Obsidian" src="https://img.shields.io/badge/Obsidian-7E1DFB?style=flat-square&logo=obsidian&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-f34f29?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Github" src="https://img.shields.io/badge/-Github-14232c?style=flat-square&logo=github&logoColor=white" />
+</p>
+
+## Authors
+
+*Initial work* - [grandeurkoe](https://github.com/grandeurkoe)
