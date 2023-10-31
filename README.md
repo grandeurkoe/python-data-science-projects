@@ -106,7 +106,7 @@ This project involves computing numerical data using the Numpy python library.
 
 ### Day 078 - Movie Budget and Financial Performance
 
-This project involves analyzing the Movie Budget and Financial Performance data. Additionally, run a linear regression on the data using scikit-learn. Finally, create beautiful charts using seaborn.
+This project involves analyzing the Movie Budget and Financial Performance data. Additionally, run a linear regression on the data using scikit-learn. Finally, create beautiful charts using Seaborn.
 
 **Learning Points**
 
@@ -120,3 +120,24 @@ This project involves analyzing the Movie Budget and Financial Performance data.
 - Run regressions with scikit-learn and calculate the coefficients.
 
 ![Movie Budget and Financial Performance](movie-budget-and-financial-performance-analysis/seaborn-and-linear-regression.gif)  
+
+
+### Day 079 - Nobel Prize
+
+This project involves analyzing the Nobel Prize data. Additionally, create beautiful charts using Matplotlib, Plotly and Seaborn.
+
+**Learning Points**
+
+- Uncover and investigate NaN values.
+- Convert objects and string data types to numbers.
+- Create donut and bar charts with Plotly.
+- Create a rolling average to smooth out time-series data and show a trend.
+- Use `.value_counts()`, `.groupby()`, `.merge()`, `.sort_values()` and `.agg()`.
+- Create a Choropleth to display data on a map.
+- Create bar charts showing different segments of the data with plotly.
+- Create Sunburst charts with plotly.
+- Use Seaborn's `.lmplot()` and show best-fit lines across multiple categories using the `row`, `hue`, and `lowess` parameters.
+- Understand how a different picture emerges when looking at the same data in different ways (e.g., box plots vs a time series analysis).
+- See the distribution of our data and visualise descriptive statistics with the help of a histogram in Seaborn.
+
+![Nobel Prize](nobel-prize-analysis/nobel-prize-analysis.gif)  
